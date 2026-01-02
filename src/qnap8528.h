@@ -2688,6 +2688,8 @@ static struct qnap8528_config qnap8528_configs[] = {
             .led_status     = 1,
             .led_jbod       = 1,
             .led_ident      = 1,
+            .led_10g        = 1,
+            .led_usb        = 1,
             .vpd_bp_table   = 1,
         },
         .fans = (u8[]){ 1, 4, 0},
